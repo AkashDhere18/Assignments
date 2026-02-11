@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms6.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="form-container">
+        <h1>School Championship Registration Form</h1>
+        <form>
+            
+            <label for="school-name">School Name <sup>*</sup></label><br/>
+            <input type="text" id="school-name" required /><br/>
+            <label for="schooler-name">Schooler Name: <sup>*</sup></label><br/>
+            <div class="input-content">
+                <input type="text" id="schooler-name" required placeholder="First"/><input type="text" id="schooler-name" required placeholder="Last" /><br/>
+            </div>
+
+            <label for="parent-name">Parent Name: <sup>*</sup></label><br/>
+            <div class="input-content">
+                <input type="text" id="parent-name" required placeholder="First"/><input type="text" id="parent-name" required placeholder="Last" /></br>
+            </div>
+
+            <label for="parent-phone">Parent Phone: <sup>*</sup></label><br/>
+            <input type="number" id="parent-phone" required placeholder="### ### ####" /><br/>
+
+            <label for="parent-email">Parent Email: <sup>*</sup></label><br/>
+            <input type="email" id="parent-email" required placeholder="Email" /><br/>
+
+            <label for="sport">Preferd Sport:<sup>*</sup></label><br/>
+            <input type="text" id="sport" required /><br/>
+
+            <div class="verify-human">
+                <label style="margin:0 35%">Verification <sup>*</sup></label>
+                <div class="checkbox-robot">
+                    <input type="checkbox" id="verify-human" name="varification" value="not robot" style="width:25px; margin-right:8px">
+                    <label for="verify-human"> I have a bike</label>
+                    <img src="assets/reCaptcha-removebg-preview.png" alt="reCAPTCHA-logo"/>
+                </div>
+            </div>
+            <input type="submit" style="width:120px; height: 40px; margin:8px 40%; background-color: blue; color: white; font-weight: bold;">
+        </form>
+    </div>
+</body>
+</html>

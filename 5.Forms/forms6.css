@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    color: rgb(92, 92, 92);
+}
+
+.form-container{
+    /* text-align: center; */
+    height: 800px;
+    width: 800px;
+    border-top: 2px solid black;
+    margin: 2% 25%;
+    padding: 3%;
+    line-height: 2rem;
+    background:linear-gradient(190deg,rgba(198, 132, 215, 0.621),rgba(99, 211, 249, 0.79));
+}
+
+.form-container h1{
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 18px;
+    font-size: 210%;
+}
+
+form input{
+    width: 100%;
+    height: 2rem;
+    padding: 8px;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 2px;
+}
+.input-content{
+    display:flex;
+    /* justify-content: space-around; */
+    gap:4px;
+    width: 100.5%;
+
+    /* background-color: aqua; */
+} 
+
+.checkbox-robot{
+    margin:0 35% ;
+    display: flex;
+    background-color: white;
+    width:180px;
+    height:60px;
+    padding:8px;
+    gap:0px;
+}
+
+.checkbox-robot img{
+    width: 40px;
+    height:50px;
+}
+
+sup{
+    color: red;
+}

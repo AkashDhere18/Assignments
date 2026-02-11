@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1c49ff;
+            font-family: Arial;
+        }
+
+        .form-card h1{
+            margin-bottom: 2rem;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .form-card {
+            background-color: white;
+            width: 900px;
+            height: 600px;
+            padding: 30px 50px;
+            border-radius: 6px;
+            box-shadow: 0px 0px 12px 1px;
+            /* line-height: 2rem; */
+            /* margin: 30px 100px; */
+        }
+
+        .form-card p{
+            margin: 0.6rem 0px;
+            color: gray;
+        }
+
+        input {
+            width: 220px;
+            height: 2.3rem;
+            padding: 12px;
+            border-radius: 4px;
+            border-width:1px ;
+        }
+
+        .rows{
+            display: flex;
+            justify-content: space-between;
+            margin: 8px 0;
+            line-height: 2rem;
+            font-size: 90%;
+            font-weight: bold;
+        }
+
+         .Personal-details{
+            margin-bottom: 1.5rem;
+        }
+
+        .idDetails{
+            margin-bottom: 1.5rem;
+        }
+
+        .btn{
+           width: 200px;
+           height: 35px;
+           background-color: #1c49ff;
+           border: none;
+           border-radius: 6px;
+           font-weight: bold;
+           color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="form-card">
+            <form>
+                <h1>Regestration</h1>
+                <p>Personal Detail</p>
+                <div class="Personal-details">
+                    <div class="rows">
+                        <div>
+                            <label for="fullname" >Full Name</label><br />
+                            <input type="text" id="fullname" placeholder="Enter Your Full Name" />
+                        </div>
+                        <div>
+                            <label for="DOB">Date of Birth</label><br />
+                            <input type="date" id="DOB" placeholder="Enter Birth Date" />
+                        </div>
+                        <div>
+                            <label for="email">Email</label><br />
+                            <input type="email" id="email" placeholder="Enter Your Email" />
+                        </div>
+
+                    </div>
+
+                    <div class="rows">
+                        <div>
+                            <label for="Mnumber">Mobile Number</label><br>
+                            <input type="number" id="Mnumber" placeholder="Enter Mobile Number" />
+                        </div>
+                        <div>
+                            <label for="gender">Gender</label><br>
+                            <input type="text" id="gender" placeholder="Enter Your Gender" />
+                        </div>
+                        <div>
+                            <label for="occupation">Occupation</label><br>
+                            <input type="text" id="occupation" placeholder="Enter Occupation" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="idDetails">
+                    <p>Identity Details</p>
+                    <div class="rows">
+
+                        <div>
+                            <label for="idtype">ID Type</label><br/>
+                            <input type="text" id="idtype" placeholder="Enter ID type" />
+                        </div>
+                        <div>
+                            <label for="idnumber">ID Number</label><br/>
+                            <input type="number" id="idnumber" placeholder="Enter ID Number" />
+                        </div>
+                        <div>    
+                            <label for="issueAuthority">Issue Authority</label><br/>
+                            <input type="text" id="issueAuthority" placeholder="Enter issue department">
+                        </div>
+                    </div>
+
+                    <div class="rows">
+                        <div>
+                            <label for="issueDate">Issue Date</label><br/>    
+                            <input type="date" id="issueDate" placeholder="Enter issue date" />
+                        </div>
+                        <div>
+                            <label for="issueState">Issue State</label><br/>
+                            <input type="text" id="issueSate" placeholder="Enter issue state" />
+                        </div>
+                        <div>
+                            <label for="expiryDate">Expiry Date</label><br/>
+                            <input type="date" id="expiryDate" placeholder="Enter expiry date" />
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn">NEXT <span style="margin-left: 8px;">&#8594;</span></button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

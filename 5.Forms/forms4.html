@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms4.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registration</h1>
+        <form>
+            <hr />
+            <div class="input-types" id="radio">
+                <input type="radio" id="personal" name="personal-company" />
+                <label for="personal">Personal</label>
+                <input type="radio" id="company" name="personal-company" />
+                <label for="company">Company</label>
+            </div>
+            <hr>
+
+            <div class="input-types">
+                <i class="fa fa-user icon"></i>
+                <input type="text" id="name" class="input" />
+            </div>
+            <div class="input-types">
+                <i class="fa fa-envelope icon"></i>
+                <input type="email" id="email" class="input" />
+            </div>
+            <div class="input-types">
+                <i class="fa fa-key icon"></i>
+                <input type="password" id="password" class="input" style="margin-bottom: 4px;"/>
+            </div>
+
+            <div class="input-types" id="radio">
+                <input type="radio" id="male" name="gender" />
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" />
+                <label for="female">Female</label>
+            </div><br>
+
+            <div class="input-types">
+                <p>By clicking Register,you <br>agree on our<a href="#">terms and conditions</a></p>
+                <button class="btn">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

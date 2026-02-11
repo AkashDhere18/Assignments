@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-areas: 'header-area header-area '
+                                'sidebar-area content-area '
+                                'sidebar-area content-area '
+                                'sidebar-area content-area '
+                                'footer-area footer-area';
+
+            gap: 10px;
+            grid-template-columns: 1fr 4fr;
+            grid-template-rows: 2fr 4fr 1fr;                    
+        }
+
+        .item1 {
+            grid-area: header-area;
+            background-color:lightblue ;
+            /* height:150px; */
+
+        }
+        .item2 {
+            grid-area: sidebar-area;
+            background-color: lightseagreen;
+            /* height:150px; */
+        }
+        .item3 {
+            grid-area: content-area;
+            background-color: pink;
+            /* height:150px; */
+        }
+        .item4 {
+            grid-area: footer-area;
+            background-color: rgb(173, 206, 108);
+            /* height:150px; */
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item1">Header</div>
+        <div class="item2">Sidebar
+            <a>contact</a>
+            <a>about us</a>
+            <a>email</a>
+        </div>
+        <div class="item3">Content
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus doloribus architecto fugit deleniti sint dolor, enim quam inventore doloremque alias, quidem nostrum, nihil porro laborum numquam? Officia tempora quis, architecto officiis quas est vitae atque. Quos veritatis est ratione? Recusandae voluptatum voluptatem maxime, cupiditate sit ipsa, earum beatae iste distinctio repudiandae veritatis accusamus! Labore eveniet quaerat, iusto quos reprehenderit porro voluptates odit et dolorem tempora dignissimos maxime eius aliquid at omnis odio voluptatum minus, corporis, nesciunt magnam. Ipsum nam natus, fuga maxime qui modi quas saepe nisi dicta, illum in doloribus est! Ipsum perspiciatis quae et? Beatae recusandae quaerat fuga.</p>
+        </div>
+        <div class="item4">Footer</div>
+    </div>
+    
+</body>
+
+</html>

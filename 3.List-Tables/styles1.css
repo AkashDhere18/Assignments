@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 680px;
+    width: 500px;
+    background-image: url("assets/menucard-bg.jpg");
+}
+
+.menu-card{
+ color: white;
+ display: flex;
+ padding-top: 20px;
+}
+
+.menu-left h1{
+    font-size: 250%;
+}
+
+.menu-left{
+    text-align: center;
+    font-size: 110%;
+}
+
+.menu-left dl{
+    margin-top:30px;
+    margin-bottom: 60px;
+}
+
+.menu-left dd{
+    margin:10px 0;
+}
+
+.menu-left dt{
+    color: rgba(235, 235, 25, 0.914);
+
+}
+
+.menu-right{
+    text-align: center;
+    font-size: 110%;
+    border-left: 1px solid white ;
+}
+
+.menu-right dl{
+    margin-top:30px;
+    margin-bottom: 60px;
+}
+
+.menu-right dd{
+    margin:10px 0;
+}
+
+.menu-right dt{
+    color: rgba(235, 235, 25, 0.914);
+
+}

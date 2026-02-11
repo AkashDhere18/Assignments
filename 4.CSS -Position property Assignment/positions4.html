@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .hero {
+            display: flex;
+            height: 500px;
+            width: 80%;
+            background-color: rgb(242, 236, 236);
+            margin: 6% 10%;
+        }
+
+        .hero-left {
+            width: 50%;
+            padding: 10% 0;
+            padding-left: 10%;
+        }
+
+        .hero-left p{
+            margin: 1rem 0;
+        }
+
+        .hero-left h1{
+            font-size: 380%;
+        }
+
+        #h1-first{
+            font-family: cursive;
+            color: rgb(9, 131, 254);
+        }
+
+        .exploreBtn{
+            height: 30px;
+            width: 130px;
+            border-radius: 50px;
+            border: none;
+            background-color: rgb(9, 131, 254);
+            padding: 6px 8px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .watchBtn{
+            height: 30px;
+            width: 160px;
+            border-radius: 50px;
+            border: none;
+            background-color: transparent;
+            padding: 6px 8px;
+            color: black;
+            font-weight: bold;
+        }
+
+        .icon{
+            background-color:rgb(9, 131, 254) ;
+            color: white;
+            padding: 3px 3px;
+            margin-right: 10px;
+            border-radius: 50%;
+            font-size: 90%;
+        }
+
+        .hero-right {
+            width: 50%;
+            /* padding-bottom: 200px; */
+            padding-top: 150px;
+            padding-left: 100px;
+        }
+
+        .hero-right img {
+            
+            z-index: 1;
+        }
+
+        .hero-img{
+            position: absolute;
+            z-index: 1;
+            bottom: 280px;
+            right: 400px;
+        }
+
+        .shape-white{
+            background-color: white;
+            height:150px;
+            width:250px;
+            transform: skew(-25deg);
+            position: relative;
+            margin-bottom: 2rem;
+            border-radius: 6px;
+            margin-left: 60px;
+        }
+
+        .shape-blue{
+            background-color: rgb(9, 131, 254);
+            height:130px;
+            width:230px;
+            /* transform: skew(25deg); */
+            position: absolute;
+            top:10px;
+            left: 10px;
+            border-radius: 6px;
+        }
+
+        .btn{
+            height: 50px;
+            width: 100px;
+            border-radius: 8px;
+            border: none;
+            background-color: rgb(9, 131, 254);
+            padding: 10px 8px;
+            color: white;
+        }
+        .buttons{
+            margin-right: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="hero-left">
+            <h1 id="h1-first">Discover</h1>
+            <h1>The World</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit nihil id necessitatibus earum nobis
+                corporis.
+            </p>
+            <button class="exploreBtn">Explore More</button>
+            <button class="watchBtn"><i class="fa-solid fa-play icon"></i>Watch Demo</button>
+        </div>
+
+        <div class="hero-right">
+            <div class="hero-img">
+                <img src="images/heroImg1.png" alt="girl-sitting-on-travelbag">
+            </div>
+            <div class="shape-white">
+                <div class="shape-blue"></div>
+            </div>
+            <div class="buttons">
+                <button class="btn">
+                    <div>
+                        64+ <span>&#8594;</span>
+                    </div>
+                    countries
+                </button>
+                <button class="btn">
+                    <div>
+                        24M+ <span>&#8594;</span>
+                    </div>
+                    Per year user
+                </button>
+                <button class="btn">
+                    <div>
+                        3k+ <span>&#8594;</span>
+                    </div>
+                    Experience
+                </button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 400px;
+    width: 300px;
+    background-color: whitesmoke;
+    padding: 20px;
+    font-family: Arial;
+    box-shadow: 0 0 6px 1px gray; 
+    border-radius: 8px;
+    margin: 100px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.input-types{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    /* line-height: 3rem; */
+    margin-bottom: 12px;
+    margin-top: 9px;
+}
+
+.input{
+    width: 100%;
+    /* margin-bottom: 12px; */
+    height: 2rem;
+    border: none;
+    box-shadow: 0 0 2px 0.5px gray; 
+}
+
+.input:focus{
+    border: 2px solid dodgerblue;
+}
+
+.icon{
+background-color: dodgerblue;
+color: white;
+min-width: 40px;
+height: 2rem;
+text-align: center;
+padding:10px;
+margin-bottom: 12px;
+box-shadow: 0 0 2px 0.5px gray; 
+}
+
+.btn{
+    height:30px;
+}
+
+#radio input{
+    color: blue;
+}

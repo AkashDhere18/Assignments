@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .form{
+            /* text-align: center; */
+            border: 4px solid gray ;
+            width: max-content;
+            padding: 30px;
+        }
+
+        .form input{
+            width: 100%;
+        }
+
+        .form label{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h1>Register</h1><br/>
+        <form>
+            <caption>Kindly fill this form for registration</caption><br/><br/>
+            <label for="Username">Username</label><br/>
+            <input type="text" id="Username" placeholder="Enter Username"/><br/>
+            
+            <label for="email">Email</label><br/>
+            <input type="email" id="email" placeholder="Enter email"/><br/>
+            
+            <label for="password">Password</label><br/>
+            <input type="password" id="password" placeholder="Enter password"/><br/>
+            
+            <label for="repeat-password">Repeat Password</label><br/>
+            <input type="password" id="repeat-password" placeholder="Repeat Password"/><br/>
+            
+            <input type="button" value="Register"/><br/><br/>
+
+            <p>Already have an account <a href="#"> Log in?</a></p>
+        </form>
+    </div>
+</body>
+</html>

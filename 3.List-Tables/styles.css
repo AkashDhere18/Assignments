@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(77, 77, 227);
+}
+
+h1{
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    /* font-weight:bolder; */
+    margin-top: 50px;
+}
+
+.lists-container{
+    height:500px;
+    width: 1436px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.list-card{
+    height:300px;
+    width:250px;
+    background-color: white;
+    /* padding-left: 50px; */
+    padding-top: 30px;
+    box-shadow: 2px 2px;
+}
+
+.list-card h2{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    text-decoration: underline;
+}
+
+.listitems{
+    list-style-type: square;
+    /* background-color: white; */
+    list-style-position: inside;
+    /* padding-left: 20px; */
+    /* margin: 5px; */
+}
+
+.listitems li{
+    margin: 25px 0;
+    padding-left: 20px;
+    font-size: xx-large;
+}
+
+#FRUITS li{
+    background:linear-gradient(90deg,rgb(97, 207, 97),white);
+}
+
+#VEGE li{
+    background:linear-gradient(90deg,rgb(214, 108, 214),white);
+}
+
+#GROCERIES li{
+    background:linear-gradient(90deg,rgb(237, 73, 73),white);
+}

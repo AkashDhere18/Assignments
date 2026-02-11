@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .tables{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 50px;
+        width:601px;
+        border-top: 2px solid rgb(27, 27, 58);
+        border-left: 1px solid gray
+    }
+
+    .t2{
+        border: 2px solid tomato;
+    }
+
+    table{
+        width: 200px;
+    }
+
+    td{
+        text-align: center;
+    }
+    
+    tfoot,th{
+        height:80px;
+        background-color:white;
+    }
+    tr:nth-child(odd){
+        background-color: lightblue;
+    }
+
+    .btn1{
+        padding: 5px;
+        background-color: rgb(25, 25, 59);
+        color: white;
+        border: none;
+    }
+
+    .btn2{
+        padding: 5px;
+        background-color:tomato;
+        color: white;
+        border: none;
+    }
+
+    span{
+        font-size: 300%;
+        font-weight: lighter;
+    }
+
+</style>
+
+<body>
+    <div class="tables">
+
+        <div class="t1">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Basic<br><sup>$</sup><span>30</span><sup>/MO</sup></th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>256MB Memory</td>
+                </tr>
+                <tr>
+                    <td>1 User</td>
+                </tr>
+                <tr>
+                    <td>1 Website</td>
+                </tr>
+                <tr>
+                    <td>1 Domain</td>
+                </tr>
+                <tr>
+                    <td>Unlimited Bandwidth</td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td  style="background-color: white;">24/7 support<br><br><button class="btn1">SELECT</button></td>
+                    </tr>
+                </tfoot>
+
+            </table>
+        </div>
+        <div class="t2">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="color: tomato;">Popular<br><span>60</span><sup>/MO</sup></th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td class="mid-row">512MB Memory</td>
+                </tr>
+                <tr>
+                    <td class="mid-row">2 User</td>
+                </tr>
+                <tr>
+                    <td class="mid-row">5 Websiter</td>
+                </tr>
+                <tr>
+                    <td class="mid-row">7 Domain</td>
+                </tr>
+                <tr>
+                    <td class="mid-row">Unlimited Bandwidth</td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td  style="background-color: white;">24/7 support<br/><br/><button class="btn2">SELECT</button></td>
+                    </tr>
+                </tfoot>
+
+            </table>
+        </div>
+
+        <div class="t3">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Premium<br><span>90</span><sub>/MO</sub></th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>1024MB Memory</td>
+                </tr>
+                <tr>
+                    <td>3 User</td>
+                </tr>
+                <tr>
+                    <td>10 Website</td>
+                </tr>
+                <tr>
+                    <td>10 Domain</td>
+                </tr>
+                <tr>
+                    <td>Unlimited Bandwidth</td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td style="background-color: white;">24/7 support<br/><br/><button class="btn1">SELECT</button></td>
+                    </tr>
+                </tfoot>
+
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
