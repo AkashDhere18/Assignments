@@ -34,7 +34,8 @@
     /* margin-bottom: 12px; */
     height: 2rem;
     border: none;
-    box-shadow: 0 0 2px 0.5px gray; 
+    box-shadow: 0 0 2px 0.5px gray;
+    padding-left: 12px; 
 }
 
 .input:focus{
@@ -54,6 +55,11 @@ box-shadow: 0 0 2px 0.5px gray;
 
 .btn{
     height:30px;
+    color: white;
+    background-color:dodgerblue ;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
 }
 
 #radio input{
