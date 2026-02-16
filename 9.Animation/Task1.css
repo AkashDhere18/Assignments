@@ -1,0 +1,76 @@
+/* Reset and Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* Landing Section */
+.landing {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  animation: gradientShift 8s ease-in-out infinite alternate;
+}
+
+/* Content Styling */
+.content {
+  max-width: 700px;
+  padding: 2rem;
+}
+
+/* Animated Heading */
+.animated-heading {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  animation: fadeInUp 1.5s ease-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin: 1rem 0 2rem;
+  opacity: 0.9;
+}
+
+/* Call-to-Action Button */
+.cta-btn {
+  display: inline-block;
+  padding: 0.9rem 2rem;
+  font-size: 1.1rem;
+  color: #fff;
+  background: #ff512f;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover Animation */
+.cta-btn:hover {
+  background: #ff7b5c;
+  transform: scale(1.05);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+}
