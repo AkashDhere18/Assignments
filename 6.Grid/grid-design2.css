@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+.container{
+  position: relative;
+  width: 1000px;
+  height: 400px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.panel{
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid white;
+}
+
+.panel1{
+  width: 40%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url("assets/ass3/grid-design2/Nature\ Photography\,\ Golden\ Sunset\,\ Lake\ in\ Northern\ Wisconsin\,\ Fine\ Art\ Print\,\ Panorama\,\ Reflections\,\ Summer\,\ Sky\,\ Clouds\,\ Healing\ Art.jpg");
+  clip-path: polygon(0 0, 100% 0, 0% 75%, 0% 40%);
+}
+
+.panel2{
+  width: 70%;
+  height: 100%;
+  left: 0%;
+  bottom: 0% ;
+  background-image: url("assets/ass3/grid-design2/Great\ Smoky\ Mountains\ National\ Park.jpg");
+  clip-path: polygon(0% 77%, 35% 32%, 100% 100%, 0 100%);
+}
+
+.panel3{
+  width: 60%;
+  height: 100%;
+  right: 0%;
+  top: 0%;
+  background-image: url("assets/ass3/grid-design2/Great\ Smoky\ Mountains\ National\ Park.jpg");
+  clip-path: polygon(60% 0, 100% 0, 100% 50%, 100% 50%);
+}
+
+.panel4{
+  width: 45%;
+  height: 100%;
+  right: 0%;
+  bottom: 0%;
+  background-image: url("assets/ass3/grid-design2/Rakotzbrücke_\ The\ Ultimate\ Guide\ to\ the\ Devil\'s\ Bridge\ in\ Germany!.jpg");
+  clip-path: polygon(43% 0%, 100% 53%, 100% 100%, 37% 100%,0% 75%);
+}
+
+/* .panel5{
+  width: 50%;
+  height: 60%;
+  left: 25%;
+  top: 0;
+  background-image: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e");
+  clip-path: polygon(10% 0, 90% 0, 70% 100%, 30% 100%);
+  z-index: 2;
+} */
+
+.centered-text{
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  width: 47%;
+  height: 75%;
+  transform: translate(-50%, -50%);
+  background: rgba(120, 120, 120, 0.9);
+  clip-path: polygon(29% 0, 100% 0, 58% 96%, 0% 42%);
+  padding: 30px;
+  text-align: center;
+  color: white;
+  z-index: 3;
+}
+
+.centered-text h2 {
+  font-size:18px;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+  margin-top: 12px;
+}
+
+.centered-text p{
+  font-size: 13px;
+  line-height: 1.6;
+}
